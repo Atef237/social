@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34828656-58c3-4f93-ad4e-ab94ae90c82d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/addComment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/addLike.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/addPost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/addReply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Like.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Reply.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_03_235854_create_post_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_04_000051_create_comments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_04_000129_create_likes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_04_000152_create_replys_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/social.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/userController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/userController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/registerUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/registerUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Traits/GeneralTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/GeneralTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_03_31_230232_create_admin_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-    </list>
+    <list default="true" id="34828656-58c3-4f93-ad4e-ab94ae90c82d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,8 +182,15 @@
       <workItem from="1617570639299" duration="4406000" />
       <workItem from="1617656577317" duration="7977000" />
       <workItem from="1617747518008" duration="4298000" />
-      <workItem from="1618171978605" duration="19896000" />
+      <workItem from="1618171978605" duration="20253000" />
     </task>
+    <task id="LOCAL؜٠٠٠٠١" summary="Make some adjustments to the controller and relationships in the database">
+      <created>1618200322160</created>
+      <option name="number" value="LOCAL؜٠٠٠٠١" />
+      <option name="presentableId" value="LOCAL؜٠٠٠٠١" />
+      <updated>1618200322160</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +198,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Make some adjustments to the controller and relationships in the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make some adjustments to the controller and relationships in the database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
