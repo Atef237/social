@@ -20,7 +20,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::post('register/user','Api\userController@regiser');
+Route::post('login','Api\userController@login');
 
-Route::post('login/admin','Api\adminController@login');
-
+route::group(['middleware' => 'auth:api','namespace'=>'Api'],function (){
+    route::post('add/post','userController@Post');
+    route::post('comment','userController@addCommentt');
+    route::post('like','userController@addLike');
+    route::post('reply','userController@addReply');
+});
 

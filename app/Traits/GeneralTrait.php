@@ -20,11 +20,10 @@ trait GeneralTrait{
     public function returnData($msg = "", $key, $value){
 
         return response([
-            'status'=>true,
             'errorNumber' => '0',
             'msg' => $msg,
             $key => $value,
-        ]);
+        ],200);
 
     }
 
@@ -33,10 +32,8 @@ trait GeneralTrait{
         return response([
 
             'errorNumber' => $errorNumber,
-            'status' => false,
             'msg' => $msg,
-
-        ]);
+        ],300);
 
     }
 
